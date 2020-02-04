@@ -1,0 +1,37 @@
+1.1 What is the difference between a long forward position and a short forward position?
+
+A short forward position means you have the obligation to provide the underlying asset on the agreed upon date. A long forward position means you have the obligation to purchase the underlying asset on the agreed upon date.
+
+1.2 Explain carefully the difference between hedging, speculation, and arbitrage
+
+Hedging is the process of trying to reduce or eliminate risk in your portfolio. This can be accomplished using derivatives like options, forwards, or futures. 
+
+Speculation is the process of trying to obtain a profit by predicting the up or down movement of an asset
+
+Arbitrage is the process of identifying price discrepencies of the same product in two diffent markets and exploiting this discrepency to lock in a profit
+
+1.3 What is the difference between entering into a long forward contract when the forward price is $50 and taking a long position in a call option with a strike price of $50
+
+In the long forward contract you have the obligation to purchase the underlying asset for $50 per unit on the agreed-upon date. In the long call option you have the right (but not obligation) to purchase the underlying asset (typically 100 units) for $50 per unit. Depending on the option style (European, American, Bermudan), you may be able to exercise this option before expiry. 
+
+1.4 Explain carefully the difference betwen selling a call option and buying a put option
+
+When you sell (write) a call option, you are obligated to provide the buyer of the option with 100 units of the underlying asset if they decide to exercise the option. If you do not have 100 units of the asset (ie: naked call), you take on infinite risk. Purchasing a put option simply gives you the right (but not obligation) to sell 100 units of the asset for the strike price (on or before the expiry date depending on the option style).
+
+1.5 An investor enters into a short forward contract to sell 100000 British pounds for US dollars at an exchange rate of 1.9000 US dollars per pound. How much does the investor gain or lose if the exchange rate at the end of the contract is (a) 1.8900 and (b) 1.9200
+
+a) 100000 * (1.89 - 1.9) = -1000
+b) 100000 * (1.92 - 1.9) = 2000
+
+1.6 A trader enters into a short cotton futures contract when the futures price is 50 cents per pound. The contract is for the delivery of 50,000 poiunds. How much does the trader gain or lose if the cotton price at the end of the contract is (a) 48.20 cents per pound and (b) 51.30 cents per pound?
+
+a) 500000 * (0.5 - 0.482) = 900
+b) 500000 * (0.5 - 0.513) = -650
+
+1.7 Suppose that you write a put contract with a strike price of $40 and an expiration date in 3 months. The current stock price is $41 and the contract is on 100 shares. What have you committed yourself to? How much could you gain or lose?
+
+You have committed yourself to buying 100 shares of the stock at a price of $40 per share. This will cost you $4000 if the person who purchased the option from you decides to exercise within the next 3 months. The maximum profit is achieved if the option is never exercised and you get to keep the option premium (ie: the amount you sold the option for). The maximum loss is achieved if the stock price goes to 0 and the option is exercised; you are then down $4000.
+
+1.8 What is the difference between the over-the-counter market and the exchange-traded market? What are the big and offer quotes or a market maker in the over-the-counter market?
+
+In the over-the-counter market trades are usually made between financial institutions, or between a financial institution and one of their clients. The terms of the trades made in the over-the-counter market can be customized to whatever suits the participants (not standardized). In the exchange traded market the contracts are standardized and the market participants are typically unknown to each other.
