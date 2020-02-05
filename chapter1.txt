@@ -5,9 +5,7 @@ A short forward position means you have the obligation to provide the underlying
 1.2 Explain carefully the difference between hedging, speculation, and arbitrage
 
 Hedging is the process of trying to reduce or eliminate risk in your portfolio. This can be accomplished using derivatives like options, forwards, or futures. 
-
 Speculation is the process of trying to obtain a profit by predicting the up or down movement of an asset
-
 Arbitrage is the process of identifying price discrepencies of the same product in two diffent markets and exploiting this discrepency to lock in a profit
 
 1.3 What is the difference between entering into a long forward contract when the forward price is $50 and taking a long position in a call option with a strike price of $50
@@ -20,8 +18,8 @@ When you sell (write) a call option, you are obligated to provide the buyer of t
 
 1.5 An investor enters into a short forward contract to sell 100000 British pounds for US dollars at an exchange rate of 1.9000 US dollars per pound. How much does the investor gain or lose if the exchange rate at the end of the contract is (a) 1.8900 and (b) 1.9200
 
-a) 100000 * (1.89 - 1.9) = -1000
-b) 100000 * (1.92 - 1.9) = 2000
+a) 100000 * (1.9 - 1.89) = 1000
+b) 100000 * (1.9 - 1.92) = -2000
 
 1.6 A trader enters into a short cotton futures contract when the futures price is 50 cents per pound. The contract is for the delivery of 50,000 poiunds. How much does the trader gain or lose if the cotton price at the end of the contract is (a) 48.20 cents per pound and (b) 51.30 cents per pound?
 
@@ -35,3 +33,95 @@ You have committed yourself to buying 100 shares of the stock at a price of $40 
 1.8 What is the difference between the over-the-counter market and the exchange-traded market? What are the big and offer quotes or a market maker in the over-the-counter market?
 
 In the over-the-counter market trades are usually made between financial institutions, or between a financial institution and one of their clients. The terms of the trades made in the over-the-counter market can be customized to whatever suits the participants (not standardized). In the exchange traded market the contracts are standardized and the market participants are typically unknown to each other.
+
+1.9 You would like to speculate on a rise in the price of a certain stock. The current stock price is $29 and a 3-month call with a strike price of $30 costs $2.90. You have $5800 to invest. Identify two alternative investment strategies, one in the stock and the other in an option on the stock. What are the potential gains and losses from each?
+
+If you invest the entire $5800 into the stock you can purchase 200 shares. Potential gain/loss = 200 * (S2 - S1) where S2 = price of stock at time 2 and S1 = price of stock at purchase. 
+If you invest the entire $5800 into 3-month call options with a strike of $30, you can purchase 20 contracts. Potential gain = 2000 * (S2 - $30) if S2 > $30. Potential loss = $5800 if S2 < $30 at expiry.
+
+1.10 Suppose that you own 5000 shares worth $25 each. How can put otions be used to provide you with insurance against a decline in the value of your holding over the next 4 months?
+
+If you were to purchase 50 put contracts with a strike price of $25 and an expiry in 4 months, you would gain the right to sell your 5000 shares for $25 per share (until expiry of the contract). This means that even if the price of the stock plummets, you are protected against this price drop. 
+
+1.11 When first issued, a stock provides funds for a company. Is the same true of a stock option? Discuss?
+
+No, stock options are agreements between third parties and do not provide funds for the company. When a company issues new stock they are selling a portion of the company to investors; this is why funds are generated during a stock issue.
+
+1.12 Explain why a forward contract can be used for either speculation or hedging.
+
+An example of using a forward contract for speculation would be to enter a long forward position to buy an asset at price X. If the market price of the asset moves up to X+10 by the delivery date, you will be able to sell each unit of the asset for a $10 profit after the delivery. An example of using a forward contract for hedging would be to enter a short forward position at price X, and if the market price of that asset falls to X-10, you will be unaffected because you have already agreed to sell the asset at price X (sparing you from a 10 dollar loss per unit). 
+
+1.13 Suppose that a March call option to buy a share for $50 costs $2.50 and is held until March. Under what circumstances will the holder of the option make a profit? Under what curcumstance will the option be exercised? Draw a diagram illustrating how the profit from a long position in the option depends on the stock price at maturity of the option.
+
+The holder of the option will make a profit if the price of the stock is above $52.50 on the expiry date in March. The option will be exercised if the stock price is above $50 on the expiry date in March. 
+
+		|         /
+		|        /
+profit	|_______/________ 0
+0		|______/
+-250	|_____________
+             50 52.50
+			stock price
+			
+1.14 Suppose that a June put option to sell a share for $60 costs $4 and is held until June. Under what circumstances will the seller of the option (i.e., the party with the short position) make a profit? Under what circumstances will the option be exercised? Draw a diagram illustrating how the profit from a short position in the option dpends on the stock pricer at maturity of the option.
+
+The seller of the put option would make a profit if the market price of the share on the expiry date in June is higher than the $60 strike price of the option. This means the buyer of the put would not exercise the option because they could sell the 100 shares in the market for a better price. This means the seller of the put would keep the entire $400 option premium that was paid to them. The option will be exercised if the market price of the stock is below $60 at expiry. 
+
+1.15 It is May and a trader writes a September call option with a strike price of $20. The stock price is $18 and the option price is $2. Describe the trader's cash flows if the optin is held until September and the stock price is $25 at that time.
+
+Initially the trader recieved $200 for writing the call. However, because the call expired in the money, the trader who purchased the call will exercise it. Assuming that this was a naked call, the trader who wrote the option will have to purchase 100 shares of the stock at $25 and sell them for $20; resulting in a loss of $500. The total loss is $300.
+
+1.16 A trader writes a December put option with a strike price of $30. The price of the option is $4. Under what circumstances does the make a gain?
+
+The trader initially makes $400 for writing the put option. If the stock price remains at or above $30, the trader keeps the $400 premium. However, that $400 premium begins to disappear as soon as the stock price goes below $30. If the stock price goes below $26, the trader begins to lose money.
+
+1.17 A company knows that it is due to receive a certain amount of a foreign currency in 4 months. What type of option contract is appropriate for hedging?
+
+You could purchase a forex put option. You could go short on a forex future.
+
+1.18 A United States comapany expects to have to pay 1 million Canadian dollars in 6 months. Explain how the exchange rate risk can be hedged using (a) a forward contract and (b) an option.
+
+a) Go long on a forward contract to purchase 1 million CAD in 6 months at a locked-in exchange rate.
+b) Buy a forex call option
+
+1.19 A trader enters into a short forward contract on 100 million yen. The forward exchange rate is $0.0080 per yen. How much does the traier gain or lose if the exchange rate at the end of the contract is (a) $0.0074 per yen and (b) $0.0091 per yen?
+
+With the agreed upon exchange rate, the trader will sell 100 million yen for 800,000 unknown currency
+a) If the exchange rate is $0.0074 per yen, the trader would be able to sell the 100 million yen for 740,000 unknown currency. This means the trader profitted $60,000 by entering into the forward contract.
+b) If the exchange rate is $0.0091 per yen, the trader would be able to sell the 100 million yen for 910,000 unknown currency. This means the trader lost a potential $110,000 by entering into the contract.
+
+1.20 The Chicago board of trade offers a futures contract on long-term Treasury bonds. Characterize the traders likely to use this contract.
+
+The prices of bonds are negatively correlated with interest rates. A trader who thinks interest rates are going to go down may enter into a long futures contract on long-term treasury bonds. A trader who thinks interest rates are going to go up may enter into a short futures contract on long-term treasury bonds.
+
+1.21 Options and futures are zero-sum games. What do you think is meant by this statement?
+
+It means that if you make money on a futures contract, the party on the other side of the contract loses the same amount of money. The same goes with options.
+
+1.22 Describe the profit from the following portfolio: a long forward contract on an asset and a long European put option on the asset with the same maturity as the forward contract and a strike price that is equal to the forward price of the asset at the time the portfolio is set up.
+
+The long forward contract is profitable if the asset price moves above the forward price, but the long put will expire worthless. The long forward contract will result in a loss if the asset price moves below the forward price, but the put option will be in-the-money in this scenario
+
+1.23 In the 1980s, Bankers Trust developed index currency option notes (ICONs). These are bonds in which the amount received by the holder at maturity varies with a foreign exchange rate. One example was its trade with the Long Term Credit Bank of Japan. The ICON specified that if the yen-US dollar exchange rate, St, is greater than 169 yen per dollar at maturity (in 1995), the holder of the bond receives $1000. If it is less than 169 yen per dollar, the amount received by the holder of the bond is.  When the exchange rate is below 84.5, nothing is received by the holder at maturity. Show that this ICON is a combintation of a regular bond and two options.
+
+1.24 On July 1, 2008, a company enters into a forward contract to buy 10 million Japanese yen on January 1, 2009. On Septembler 1, 2008, it enters into a forward contract to sell 10 million Japanese yen on January 1, 2009. Describe the payoff from this strategy.
+
+If the agreed upon exchange rate in the first forward contract is less than the exchange rate in the second forward contract, the company has locked in a profit of (1000000 * (E2 - E1)).
+
+1.25  Suppose that USD/sterling spot and forward exchange rates are as follows: Spot = 2.0080, 90-day forward = 2.0056, 180-day forward = 2.0018. What opportunities are open to an arbitrageur in the following situations?
+(a) A 180-day European call option to buy 1 pound for $1.97 costs 2 cents.
+(b) A 90-day European put option to sell 1 pound for $2.04 costs 2 cents.
+
+a) An arbitrageur could buy the 180-day European call option to buy 1 pound for $1.97 for $0.02 and then enter into the 180-day forward agreement to sell that pound for $2.0018. This would create a risk free profit of (2.0018 - ($1.97 + $0.02)) = $0.0118
+
+b) An arbitrageur could buy the 90 day European put option to sell a pound for $2.04 for 2 cents and then enter a 90-day forward contract to buy a pound for $2.0056. This would create a risk free profit of ($2.04 - $0.02 - $2.0056) = $0.0144
+
+
+
+
+
+ 
+
+
+
+
