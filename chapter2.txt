@@ -1,0 +1,19 @@
+2.1 Distinguish between the terms open interest and trading volume
+
+Open interest is the total number of contracts outstanding. Volume is the number of contracts being exchanged between buyers and sellings
+
+2.2 What is the difference between a local and commission broker?
+
+Commission brokers are following the instructions of their clients and charge a commission for doing so; locals are trading on their own account.
+
+2.3 Suppose that you enter into a short futures contract to sell July Silver for $10.20 per ounce on the New York Commodity Exchange. The size of the contract is 5000 ounces. The initial margin is $4000, and the maintenance margin is $3000. What change in the futures price will lead to a margin call? What happens if you do not meet the margin call?
+
+If the futures price rises to $10.40 per ounce, a margin call will be issued (since we are short). If you are not able to increase your margin value of your account back to the intitial margin requirement (of $4000), your futures position will be closed.
+
+2.4 Suppose that in September 2009 a company takes a long position in a contract on May 2010 crude oil futures. It closes out its position in March 2010. The futures price (per barrel) is $68.30 when it enters into the contract, $70.50 when it closes out its position, and $69.10 at the end of December 2009. Once contract is for the deliver of 1,000 barrrels. What is the company's total profit? When is it realized? How is it taxed if it is (a) a hedger and (b) a speculator? Assume that the company has a December 31 year-end
+
+Total profit = 1000 * (70.50 - 68.30) = $2200. Since futures contracts have daily settlement, this profit is the accumulation of all of the daily gains and losses summed together.
+
+a) It is taxed in May 2010 on the full $2200
+b) Is is taxed in both 2009 and 2010. In 2009 it is taxed on the (1000 * (69.10 - 68.30)) = 800 profit
+   In 2010 it is taxed on the remaining (1000 * (70.50 - 69.10)) = $1400 profit
