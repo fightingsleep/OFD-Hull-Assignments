@@ -28,7 +28,7 @@ The clearing house margin account has no maintenance margin (only an original ma
 
 2.7 What differences exist in the way prices are quoted in the foreign exchange futures market, the foreign exchange spot market, and the foreign exchange forward market?
 
-In the futures market, all FX futures prices where one of the currencies is USD are quoted as the number of USD per unit of foreign currency. Forward prices are always quoted in the same way as spot prices. Spot prices and forward prices are always quoted the same way. This means that for GBP, EUR, AUS, NZD the forward quotes show the number of USD per unit of foreign currency (same as futures market). Howevever, for othe major currencies, forward quotes show the number of units of the foreign currency per USD. 
+In the futures market, all FX futures prices where one of the currencies is USD are quoted as the number of USD per unit of foreign currency. Forward prices are always quoted in the same way as spot prices. Spot prices and forward prices are always quoted the same way. This means that for GBP, EUR, AUS, NZD the forward quotes show the number of USD per unit of foreign currency (same as futures market). Howevever, for other major currencies, forward quotes show the number of units of the foreign currency per USD. 
 
 2.8 The party with a short position in a futures contract sometimes has options as to the prcise asset that will be delivered, where delivery will takes place, when deliver will take place, and so on. Do these options increase or decrease the futures price? Explain your reasoning.
 
@@ -61,7 +61,60 @@ This means that if the price of the asset falls to 20.30 or below, sell the asse
 
 2.15 At the end of one day a clearinghouse member is long 100 contracts, and the settlement price is $50,000 per contract. The original margin is $2000 per contract. On the following day the member becomes responsible for clearing an additional 20 long contracts, entered into at a price of $51,000 per contract. The settlement price at the end of this day is $50,200. How much does the member have to add to its margin account with the exchange clearinghouse?
 
-200,000 + 16,000 - 20000 = 196,000
+Original margin requirement = 100 * $2000 = $200,000
+Additional margin for additional contracts = 20 * $2000 = $40,000
+Gain in original 100 contract value = 100 * $200 = $20,000
+Loss in new 20 contract value = 20 * $800 = $16,000
+40,000 - 20,000 + 16,000 = 36,000 need to be added to meet the $240,000 margin requirement
+
+2.16 On July 1, 2009, a Japanese company enters into a forward contract to buy $1 million on January 1, 2010. On September 1, 2009, it enters into a forward contract to sell $1 million on January 1, 2010. Describe the profit or loss the company will make in yen as a function of the forward exchange rates on July 1, 2009, and September 1, 2009.
+
+If the July 1, 2009 forward exchange rate is more favorable than the September 1, 2009 forward exchange rate, the company will profit: 1,000,000 * (E2 - E1). If it is less favorable, they will lose 1,000,000 * (E1 - E2). Keep in mind forward fx rates for Yen will be quoted in Yen per USD 
+
+2.17 The forward price of the Swiss franc for delivery in 45 days is quoted as 1.2500. The futures price for a contract that will be delivered in 45 days is 0.7980. Explain these two quotes. which is more favorable for an investor wanting to sell Swiss Francs?
+
+The forward price is in swiss franc per USD. The futures price is in USD per Swiss franc. To compare them we can convert the forward price to USD per Swiss franc as 1/1.25 = 0.8. Therefore the forward price is more attractive to a investor wanting to sell Swiss Francs.
+
+2.18 Suppose you call your broker and issue instructions to sell one July hogs contract. Describe what happens.
+
+They will request some margin from you to cover the contract. If they are a member of the clearing house they will be required to maintain some margin at the clearing house to cover the trade. If they are not a member of the clearing house, they will be required to maintain some margin with a member of the clearing house. The trade will be sent to the exchange (CME for hogs) and executed. They will charge you some commission. You will recieve confirmation of the trade. 
+
+2.19 "Speculation in the futures markets is pure gambling. It is not in the public interest to allow speculators to trade on a futures exchange." Discuss this viewpoint.
+
+It is in the public interest to allow speculation in the futures market because it increases liquidity and aids proper price discovery. 
+
+2.20 Identify the commodities whose futures contracts have the highest open interest in Table 2.2
+
+Corn, Crude Oil, Sugar, Wheat
+
+2.21 What do you think would happen if an exchange started trading a contract in which the quality of the underlying asset was incompletely specified?
+
+Traders would grow upset with the quality of product that ends up being delivered, and the price would probably sink to a level that represents the lowest quality variant of the product. Traders would probably stop taking positions and liquidity would decrease. 
+
+2.22 "When a futures contract is traded on the floor of the exchange, it may be the case that the open interest increases by one, stays the same, or decreases by one." Explain this statement.
+
+Increases by one = A new contract was issued
+Stays the same - One party is closing out their side of the contract, the other party remains
+Decreases by one - A contract was closed out
+
+2.23 Suppose that, On October 24, 2009, a company sells one April 2010 live cattle futures contract. It closes out its position on January 21, 2010. The futures price (per poiuund) is 91.20 cents when it enters into the contract, 88.30 cents when it closes out its position, and 88.80 cents at the end of December 2009. One contract is for the delivery of 40,00 pounds of cattle. What is the total profit? How is it taxed if the company is (a) a hedger and (b) a speculator? Assume that the company has a December 31 year-end.
+
+Profit = 40,000 * (0.9120 - 0.8830) = $1160
+a) The entire $1160 is taxed in 2010
+b) 40,000 * (0.9120 - 0.8880) = $960 taxed in 2009. 40,000 * (0.8880 - 0.8830) = $200 taxed in 2010
+
+2.24 A cattle farmer expects to have 120,000 pounds of live cattle to sell in 3 months. The live cattle futures contract on the Chicago Mercantile Exchange is for the deliver of 40,000 pounds of cattle. How can the farmer use the contract for hedging? From the farmer's viewpoint, what are the pros and cons of hedging?
+
+The farmer can sell 3 cattle futures for delivery in 3 months. This guarantees that the farmer recieves the current cattle futures price 3 months when he sells the cattle. This is a pro to the farmer if the price of cattle falls within the next 3 months. This is a con to the farmer if the price of cattle rises in the next 3 months.
+
+2.25 It is July 2008. A mining company has just discovered a small deposit of gold. It wil take 6 months to construct the mine. The gold will then be extracted on a more or less continuous basis for 1 year. Futures contracts on gold are available on the New York Commodity Exchange. There are delivery months every 2 months from August 2008 to December 2009. Each contract is for the deliver of 100 ounces. Discuss how the mining company might use futures market for hedging.
+
+If it takes the company 6 months to build the mine, they won't be producing gold until January of 2009. Once they have calculated their production quantity, they can begin entering into short gold futures contracts for Feb, Apr, Jun, Aug, Oct, Dec 2009 to cover their 1 year production cycle. This will lock in their profits for 2009. 
+
+
+
+
+ 
 
  
 
