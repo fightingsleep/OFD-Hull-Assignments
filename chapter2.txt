@@ -17,3 +17,53 @@ Total profit = 1000 * (70.50 - 68.30) = $2200. Since futures contracts have dail
 a) It is taxed in May 2010 on the full $2200
 b) Is is taxed in both 2009 and 2010. In 2009 it is taxed on the (1000 * (69.10 - 68.30)) = 800 profit
    In 2010 it is taxed on the remaining (1000 * (70.50 - 69.10)) = $1400 profit
+   
+2.5 What does a stop order to sell at $2 mean? When might it be used? What does a limit order to sell at $2 mean? When might it be used?
+
+A stop order to sell at $2 means that when the stock price sinks to $2 a market order will be placed to sell the stock. This type of order is used to prevent the stock holder from incurring additional losses if the stock keeps sinking. A limit order to sell at $2 means that the minimum price the trader is willing to sell their stock for is $2 per share. This type of order is used when the trader wishes to sell for a specific price (or above).
+
+2.6 What is the difference between the operation of the margin account administered by a clearinghouse and those administered by a broker?
+
+The clearing house margin account has no maintenance margin (only an original margin). Every day the account balance for each contract must be maintained at an amount equal to the original margin times the number of contracts outstanding.
+
+2.7 What differences exist in the way prices are quoted in the foreign exchange futures market, the foreign exchange spot market, and the foreign exchange forward market?
+
+In the futures market, all FX futures prices where one of the currencies is USD are quoted as the number of USD per unit of foreign currency. Forward prices are always quoted in the same way as spot prices. Spot prices and forward prices are always quoted the same way. This means that for GBP, EUR, AUS, NZD the forward quotes show the number of USD per unit of foreign currency (same as futures market). Howevever, for othe major currencies, forward quotes show the number of units of the foreign currency per USD. 
+
+2.8 The party with a short position in a futures contract sometimes has options as to the prcise asset that will be delivered, where delivery will takes place, when deliver will take place, and so on. Do these options increase or decrease the futures price? Explain your reasoning.
+
+No, the futures prices will remain the same. However, when time for deliver comes, price adjustments will be made depending on the quality of asset that is actually going to be delivered.
+
+2.9 What are the most important aspects of the design of a new futures contract?
+
+The asset, the contract size, delivery arrangements, delivery months, price quotes,, price limits and position limits
+
+2.10 Explain how margins protect investors against the possibility of default
+
+Margins ensure that both parties have sufficient funds to honour the contract given a change in the futures price. If one of the parties isn't able to meet the minimum margin requirement, they will be forced to close out their side of the contract. 
+
+2.11 A trader buys two July futures contracts on orange juice. Each contract is for the delivery of 15,000 pounds. The current futures price is 160 cents per pound, the initial margin is $6000 per contract, and the maintencance margin is $4500 per contract. What price change would lead to a margin call? Under what circumstance could $2,000 be withdrawn from the margin account?
+
+A price decrease greater than 10 cents would cause a margin call. A price increase of 6 and 2/3 cents would put you $2000 over the initial margin and allow you to withdraw $2000.
+
+2.12 Show that, if the futures price of a commodity is greater than the spot price during the delivery period, then there is an arbitrage opportunity. Does an arbitrage opportunity exist if the futures price is less than the spot price? Explain your answer. 
+
+a) Sell a futures contract, buy the asset at the spot price, deliver the asset for the futures price
+b) Companies interested in acquiring the asset will enter into long futures contracts at the lower price and the demand will increase the futures price to the spot price. There is no arbitrage opportunity though since delivery isn't immediate.
+
+2.13 Explain the differnce betwen a market-if-touched order and a stop order.
+
+A stop sell order is to stop loss if you are long and the asset price is falling. A stop buy order is to stop loss if you are short and the asset price is rising. A market-if-touched sell order is a profit taker order if you are long and the asset price is increasing. A market-if-touched buy order is a profit taker order if you are short and the asset price is falling. 
+
+2.14 Explain what a stop-limit order to sell at 20.30 with a limit of 20.10 means.
+
+This means that if the price of the asset falls to 20.30 or below, sell the asset, but for a minimum price of 20.10.
+
+2.15 At the end of one day a clearinghouse member is long 100 contracts, and the settlement price is $50,000 per contract. The original margin is $2000 per contract. On the following day the member becomes responsible for clearing an additional 20 long contracts, entered into at a price of $51,000 per contract. The settlement price at the end of this day is $50,200. How much does the member have to add to its margin account with the exchange clearinghouse?
+
+200,000 + 16,000 - 20000 = 196,000
+
+ 
+
+
+
