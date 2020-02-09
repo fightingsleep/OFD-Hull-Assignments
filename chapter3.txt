@@ -1,0 +1,31 @@
+3.1 Under what circumstances are (a) a short hedge and (b) a long hedge appropriate?
+
+a) A short hedge is appropriate when you are in the following situation: you lose money when the asset price decreases, and you gain money when the asset price increases.
+b) A long hedge is appropriate when you are in the following situation: you gain money when the asset price decreases, and you lose money when the asset price increases.
+
+3.2 Explain what is meant by basis risk when futures contracts are used for hedging.
+
+Basis risk is difference between the spot price of an asset and its future price. 
+
+3.3 Explain what is meant by a perfect hedge. Does a perfect hedge always lead to a better outcome than an imperfect hedge? Explain your answer.
+
+A perfect hedge is a hedge that 100% neutralizes the risk associated with a position. A perfect hedge does not always lead to a better outcome than an imperfect hedge. For example, if you are using a short hedge and the price of the asset goes up, an imperfect hedge could result in a profit from this price movement. A perfect hedge would result in no profit from this upwards price movement in the asset because the loss on the hedge would perfectly offset this gain.
+
+3.4 Under what circumstances does a minumum variance hedge portfolio lead to no hedging at all?
+
+If the coefficient of correlation between delta S and delta F is zero. If the standard deviation of the spot price is zero.
+
+3.5 Give three reasons why the treasurer of a company might not hedge the company's exposure to a particular risk.
+
+1) The company wishes to profit from a favorable movement in the risky asset
+2) The company's competitors don't hedge that particular risk
+3) The treasurer doesn't want to get in trouble if the asset price changes favorably, and management expects to see profits, but the hedge eliminated those profits
+
+3.6 Suppose that the standard deviation of quarterly changes in the prices of a commodity is $0.65, the standard deviation of quarterly changes in a futures price on the commodity is $0.81, and the coefficient of correlation betwen the two changes is 0.8. What is the optimal hedge ratio for a 3-month contract? What does it mean?
+
+0.8 * (0.65/0.81) = 64.2%
+
+It means that you should hedge 64.2% of the exposure to the commodity using these futures contracts. 
+
+
+
