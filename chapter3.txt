@@ -27,5 +27,45 @@ If the coefficient of correlation between delta S and delta F is zero. If the st
 
 It means that you should hedge 64.2% of the exposure to the commodity using these futures contracts. 
 
+3.7 A comapny has a $20 million portfolio with a beta of 1.2. It would like to use futures contracts on the S&P 500 to hedge its risk. The index futures price is currency standing at 1080, and each contract is for the delivery of $250 times the index. What is the hedge that minimizes risk? What should the company do if it wants to reduce the beta of the portfolio to 0.6?
+
+a) N* = 1.2 * (20,000,000/(250 * 1080)) = 88.8 contracts
+b) N* = (1.2 - 0.6) * (20,000,000/(250 * 1080)) = 44.4 contracts
+
+3.8 In the Chicago Board of Trade;s corn futures contract, the following delivery months are available: March, May, July, September, and December. State the contract that should be used for hedging when the expiration of the hedge is in (a) June, (b) July, and (c) January
+
+a) July
+b) September
+c) March
+
+3.9 Does a perfect hedge always succeed in locking in the current spot price of an asset for a future transation? Explain your answer
+
+A perfect hedge would lock in the current spot price if: a) futures prices and spot prices were the same (very rare) b) the hedge could be closed at the exact same time as delivery of the product. c) The hedge is closed exactly at expiration and the spot price and futures price have completely converged. This is very often not the case.
+
+3.10 Explain why a short hedger's position improves when the basis strengthens unexpectedly and worsens when the basis weakens unexpectedly.
+
+When the basis strengthens
+1) Spot goes up, future price remains: Short hedgers long position increases in value, futures value stays the same
+2) Spot stays same, futures price down: Short hedgers short position increases in value, long position value stays the same 
+3) Spot goes up, futures down: Both of the short hedgers positions increase in value
+
+When the basis weakens
+1) Spot goes down, futures price remains: Short hedgers long position decreases in vaule, futures value stays the same
+2) Spot stays the same, futures price goes up: Short hedgers long position stays the same, futures position loses value
+3) Spot goes down, futures goes up: Short hedger loses value on both positions
+
+3.11 Imagine you are the treasurer of a Japanese company exporting electronic equipment to the United States. Discuss how you would design a foreign exchange hedging strategy and the arguments you would use to sell the strategy to your fellow executives.
+
+Since the company would receive payments in USD, they are exposed to fx risk between USD and JPY. For example, if the USD strengthened against the Yen, you would recieve more Yen. If the USD weakened against the Yen, you would receive less Yen. To hedge this risk, you can use USD.Yen futures (quoted USD per Yen). These futures increase in value when USD weakens, and decrease in value when USD strengthens. Therefore going long in these futures contracts would offset your fx exposure. 
+
+3.12 Suppose that in Example 3.2 of Section 3.3 the comapny decides to use a hedge ratio of 0.8. How does the decision affect the way in which the hedge is implemented and the result?
+
+N* = 0.8 * (20,000/1,000) = 16 contracts will be used for hedging
+Total price paid = 16,000 * $68.90 + 4,000 * $70 = ‭1,382,400‬. Which is $4400 more than if you hedged 100%
+
+3.13 "If the minimum variance hedge ratio is calculated as 1.0, the hedge must be perfect." Is this statement true? Explain your answer.
+
+
+
 
 
