@@ -65,6 +65,26 @@ Total price paid = 16,000 * $68.90 + 4,000 * $70 = ‭1,382,400‬. Which is $44
 
 3.13 "If the minimum variance hedge ratio is calculated as 1.0, the hedge must be perfect." Is this statement true? Explain your answer.
 
+As the name implies, the "minimum variance hedge ratio" is the hedge ratio that minimizes the variance of the hedged position. It certainly may not be a perfect hedge, but it is the best hedge possible given the mismatch between the exposure that needs to be hedged, and the futures contract that is being used to hedge it.
+
+3.14 "If there is no basis risk, the minumum variance hedge ratio is always 1.0" Is this statement true? Explain your answer.
+
+h* = p * (STDEV(S)/STDEV(F)). If there is no basis risk, S and F are perfectly correlated. This means their standard deviation is the same, and their correlation coefficient is the same. This results in the minumum variance hedge ratio being 1. So yes, this statement is true.
+
+3.15 "For an asset where futures prices are usually less than spot prices, long hedges are likely to be particularly attractive." Explain your answer.
+
+For a company that wishes to purchase an asset in the future, using a long futures hedge is a good way to lock in a price that is near to the current futures price. 
+
+3.16 The standard deviation of monthly changes in the spot price of live cattle is (in cents per pound) 1.2. The standard deviation of monthly changes in the futures price of live cattle for the closest contraact is 1.4. The correlation between the futures price changes and the spot price changes is 0.7. It is now October 15. A beef producer is committed to purchasing 200,000 pounds of live cattle on November 15. The producer wants to use the December live cattle futures contracts to hedge its risk. Each contract is for the delivery of 40,000 pounds of cattle. What strategy should the beef producer follow?
+
+h* = 0.7 * (1.2/1.4) = 0.6
+N* = 0.6(200,000/40,000) = 3
+
+The beef producer should go long on 3 of the December live cattle futures to hedge its risk. The producer can close its futures position on Nov 15th when it intends to purchase the cattle.
+
+3.17 A corn farmer argues "I do not use futures contracts for hedging. My real risk is not the price of corn. It is that my whole crop gets wiped out by the weather. Discuss this viewpoint. Should the farmer estimate his or her expected production of corn and hedge to try to lock in a price for expected production?
+
+
 
 
 
