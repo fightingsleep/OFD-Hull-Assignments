@@ -84,7 +84,32 @@ The beef producer should go long on 3 of the December live cattle futures to hed
 
 3.17 A corn farmer argues "I do not use futures contracts for hedging. My real risk is not the price of corn. It is that my whole crop gets wiped out by the weather. Discuss this viewpoint. Should the farmer estimate his or her expected production of corn and hedge to try to lock in a price for expected production?
 
+The farmer may not want to hedge his maximum output of corn because he may not be able to deliver. However, like a lot of farmers, he can buy futures contracts for 60-70% of his max output to hedge price movements in corn. Although, if most farmers aren't hedging, this could leave the farmer in a situation where the price of corn is high due to low output and his short futures cost a lot of money to close.
 
+3.18 On July 1, an investor holds 50,000 shares of a certain stock. The market price of $30 per share. The investor is interested in hedging against movements in the market over the next month and decides to use the September Mini S&P 500 futures contract. The index futures price is currently 1,500 and one contract is for delivery of $50 times the index. The beta of the stock is 1.2. What strategy should the investor follow?
+
+Total portfolio value = 50,000 * $30 = 1,500,000
+Value of one futures contract = 1,500 * $50 = 75,000
+
+N* = 1.2 * (1,500,000/75,000) = 24
+
+The investor should short 24 September Mini S&P 500 futures contracts
+
+3.19 Suppose that in Table 3.5 the company decides to use a hedge ratio of 1.5. How does the decision affect the way the hedge is implemented and the result?
+
+It means they are shorting 150 contracts instead of 100 and rolling all 150 forward until closing the July 2008 contracts in June 2008 when they make the actual sale.
+
+3.20 A futures contract is used for hedging. Explain why the marking to market of the contract can give rise to cash flow problems.
+
+Short term flucuations in the futures prices can lead to margin calls. This means the company may need to tie-up additional money now to keep their hedges on.
+
+3.21 An airline executive has argued: "There is no point in our using oil futures. There is just as much chance that the price of oil in the future will be less than the futures price as there is that it will be greater than this price." Disciss the executive's viewpoint. 
+
+This may be true. You have to look at the big picture when hedging. It depends on if the airlines competitors are also hedging. If all other airlines are hedging, then when oil prices go up, this unhedged airline might be the only airline who needs to raise its ticket prices to compensate. This could seriously hurt business. It also depends on shareholder expectations.
+
+3.22 Suppose that the 1-year gold lease rate is 1.5% and the 1-year risk-free rate is 5.0%. Both rates are compounded annually. Use the discussion in Business Snapshot 3.1 to calculate the maximum 1-year gold forward price Goldman Sachs should quote to the gold-mining company when the spot price is $600.
+
+Goldman Sachs is going to lease gold from the central bank (at -1.5%, or -$9) and sell it for $600. It is going to take the profit and invest it at the risk free interest rate of 5% (profit of $30). This means that Goldman Sachs needs to quote the gold-mining company a forward price of $639 to ensure that it recieves atleast the risk-free interest rate in return.
 
 
 
