@@ -1,0 +1,116 @@
+3.1 Under what circumstances are (a) a short hedge and (b) a long hedge appropriate?
+
+a) A short hedge is appropriate when you are in the following situation: you lose money when the asset price decreases, and you gain money when the asset price increases.
+b) A long hedge is appropriate when you are in the following situation: you gain money when the asset price decreases, and you lose money when the asset price increases.
+
+3.2 Explain what is meant by basis risk when futures contracts are used for hedging.
+
+Basis risk is difference between the spot price of an asset and its future price. 
+
+3.3 Explain what is meant by a perfect hedge. Does a perfect hedge always lead to a better outcome than an imperfect hedge? Explain your answer.
+
+A perfect hedge is a hedge that 100% neutralizes the risk associated with a position. A perfect hedge does not always lead to a better outcome than an imperfect hedge. For example, if you are using a short hedge and the price of the asset goes up, an imperfect hedge could result in a profit from this price movement. A perfect hedge would result in no profit from this upwards price movement in the asset because the loss on the hedge would perfectly offset this gain.
+
+3.4 Under what circumstances does a minumum variance hedge portfolio lead to no hedging at all?
+
+If the coefficient of correlation between delta S and delta F is zero. If the standard deviation of the spot price is zero.
+
+3.5 Give three reasons why the treasurer of a company might not hedge the company's exposure to a particular risk.
+
+1) The company wishes to profit from a favorable movement in the risky asset
+2) The company's competitors don't hedge that particular risk
+3) The treasurer doesn't want to get in trouble if the asset price changes favorably, and management expects to see profits, but the hedge eliminated those profits
+
+3.6 Suppose that the standard deviation of quarterly changes in the prices of a commodity is $0.65, the standard deviation of quarterly changes in a futures price on the commodity is $0.81, and the coefficient of correlation betwen the two changes is 0.8. What is the optimal hedge ratio for a 3-month contract? What does it mean?
+
+0.8 * (0.65/0.81) = 64.2%
+
+It means that you should hedge 64.2% of the exposure to the commodity using these futures contracts. 
+
+3.7 A comapny has a $20 million portfolio with a beta of 1.2. It would like to use futures contracts on the S&P 500 to hedge its risk. The index futures price is currency standing at 1080, and each contract is for the delivery of $250 times the index. What is the hedge that minimizes risk? What should the company do if it wants to reduce the beta of the portfolio to 0.6?
+
+a) N* = 1.2 * (20,000,000/(250 * 1080)) = 88.8 contracts
+b) N* = (1.2 - 0.6) * (20,000,000/(250 * 1080)) = 44.4 contracts
+
+3.8 In the Chicago Board of Trade;s corn futures contract, the following delivery months are available: March, May, July, September, and December. State the contract that should be used for hedging when the expiration of the hedge is in (a) June, (b) July, and (c) January
+
+a) July
+b) September
+c) March
+
+3.9 Does a perfect hedge always succeed in locking in the current spot price of an asset for a future transation? Explain your answer
+
+A perfect hedge would lock in the current spot price if: a) futures prices and spot prices were the same (very rare) b) the hedge could be closed at the exact same time as delivery of the product. c) The hedge is closed exactly at expiration and the spot price and futures price have completely converged. This is very often not the case.
+
+3.10 Explain why a short hedger's position improves when the basis strengthens unexpectedly and worsens when the basis weakens unexpectedly.
+
+When the basis strengthens
+1) Spot goes up, future price remains: Short hedgers long position increases in value, futures value stays the same
+2) Spot stays same, futures price down: Short hedgers short position increases in value, long position value stays the same 
+3) Spot goes up, futures down: Both of the short hedgers positions increase in value
+
+When the basis weakens
+1) Spot goes down, futures price remains: Short hedgers long position decreases in vaule, futures value stays the same
+2) Spot stays the same, futures price goes up: Short hedgers long position stays the same, futures position loses value
+3) Spot goes down, futures goes up: Short hedger loses value on both positions
+
+3.11 Imagine you are the treasurer of a Japanese company exporting electronic equipment to the United States. Discuss how you would design a foreign exchange hedging strategy and the arguments you would use to sell the strategy to your fellow executives.
+
+Since the company would receive payments in USD, they are exposed to fx risk between USD and JPY. For example, if the USD strengthened against the Yen, you would recieve more Yen. If the USD weakened against the Yen, you would receive less Yen. To hedge this risk, you can use USD.Yen futures (quoted USD per Yen). These futures increase in value when USD weakens, and decrease in value when USD strengthens. Therefore going long in these futures contracts would offset your fx exposure. 
+
+3.12 Suppose that in Example 3.2 of Section 3.3 the comapny decides to use a hedge ratio of 0.8. How does the decision affect the way in which the hedge is implemented and the result?
+
+N* = 0.8 * (20,000/1,000) = 16 contracts will be used for hedging
+Total price paid = 16,000 * $68.90 + 4,000 * $70 = ‭1,382,400‬. Which is $4400 more than if you hedged 100%
+
+3.13 "If the minimum variance hedge ratio is calculated as 1.0, the hedge must be perfect." Is this statement true? Explain your answer.
+
+As the name implies, the "minimum variance hedge ratio" is the hedge ratio that minimizes the variance of the hedged position. It certainly may not be a perfect hedge, but it is the best hedge possible given the mismatch between the exposure that needs to be hedged, and the futures contract that is being used to hedge it.
+
+3.14 "If there is no basis risk, the minumum variance hedge ratio is always 1.0" Is this statement true? Explain your answer.
+
+h* = p * (STDEV(S)/STDEV(F)). If there is no basis risk, S and F are perfectly correlated. This means their standard deviation is the same, and their correlation coefficient is the same. This results in the minumum variance hedge ratio being 1. So yes, this statement is true.
+
+3.15 "For an asset where futures prices are usually less than spot prices, long hedges are likely to be particularly attractive." Explain your answer.
+
+For a company that wishes to purchase an asset in the future, using a long futures hedge is a good way to lock in a price that is near to the current futures price. 
+
+3.16 The standard deviation of monthly changes in the spot price of live cattle is (in cents per pound) 1.2. The standard deviation of monthly changes in the futures price of live cattle for the closest contraact is 1.4. The correlation between the futures price changes and the spot price changes is 0.7. It is now October 15. A beef producer is committed to purchasing 200,000 pounds of live cattle on November 15. The producer wants to use the December live cattle futures contracts to hedge its risk. Each contract is for the delivery of 40,000 pounds of cattle. What strategy should the beef producer follow?
+
+h* = 0.7 * (1.2/1.4) = 0.6
+N* = 0.6(200,000/40,000) = 3
+
+The beef producer should go long on 3 of the December live cattle futures to hedge its risk. The producer can close its futures position on Nov 15th when it intends to purchase the cattle.
+
+3.17 A corn farmer argues "I do not use futures contracts for hedging. My real risk is not the price of corn. It is that my whole crop gets wiped out by the weather. Discuss this viewpoint. Should the farmer estimate his or her expected production of corn and hedge to try to lock in a price for expected production?
+
+The farmer may not want to hedge his maximum output of corn because he may not be able to deliver. However, like a lot of farmers, he can buy futures contracts for 60-70% of his max output to hedge price movements in corn. Although, if most farmers aren't hedging, this could leave the farmer in a situation where the price of corn is high due to low output and his short futures cost a lot of money to close.
+
+3.18 On July 1, an investor holds 50,000 shares of a certain stock. The market price of $30 per share. The investor is interested in hedging against movements in the market over the next month and decides to use the September Mini S&P 500 futures contract. The index futures price is currently 1,500 and one contract is for delivery of $50 times the index. The beta of the stock is 1.2. What strategy should the investor follow?
+
+Total portfolio value = 50,000 * $30 = 1,500,000
+Value of one futures contract = 1,500 * $50 = 75,000
+
+N* = 1.2 * (1,500,000/75,000) = 24
+
+The investor should short 24 September Mini S&P 500 futures contracts
+
+3.19 Suppose that in Table 3.5 the company decides to use a hedge ratio of 1.5. How does the decision affect the way the hedge is implemented and the result?
+
+It means they are shorting 150 contracts instead of 100 and rolling all 150 forward until closing the July 2008 contracts in June 2008 when they make the actual sale.
+
+3.20 A futures contract is used for hedging. Explain why the marking to market of the contract can give rise to cash flow problems.
+
+Short term flucuations in the futures prices can lead to margin calls. This means the company may need to tie-up additional money now to keep their hedges on.
+
+3.21 An airline executive has argued: "There is no point in our using oil futures. There is just as much chance that the price of oil in the future will be less than the futures price as there is that it will be greater than this price." Disciss the executive's viewpoint. 
+
+This may be true. You have to look at the big picture when hedging. It depends on if the airlines competitors are also hedging. If all other airlines are hedging, then when oil prices go up, this unhedged airline might be the only airline who needs to raise its ticket prices to compensate. This could seriously hurt business. It also depends on shareholder expectations.
+
+3.22 Suppose that the 1-year gold lease rate is 1.5% and the 1-year risk-free rate is 5.0%. Both rates are compounded annually. Use the discussion in Business Snapshot 3.1 to calculate the maximum 1-year gold forward price Goldman Sachs should quote to the gold-mining company when the spot price is $600.
+
+Goldman Sachs is going to lease gold from the central bank (at -1.5%, or -$9) and sell it for $600. It is going to take the profit and invest it at the risk free interest rate of 5% (profit of $30). This means that Goldman Sachs needs to quote the gold-mining company a forward price of $639 to ensure that it recieves atleast the risk-free interest rate in return.
+
+
+
+
