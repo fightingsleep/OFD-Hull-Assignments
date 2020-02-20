@@ -65,7 +65,7 @@ profit	|_______/________ 0
 			
 1.14 Suppose that a June put option to sell a share for $60 costs $4 and is held until June. Under what circumstances will the seller of the option (i.e., the party with the short position) make a profit? Under what circumstances will the option be exercised? Draw a diagram illustrating how the profit from a short position in the option dpends on the stock pricer at maturity of the option.
 
-The seller of the put option would make a profit if the market price of the share on the expiry date in June is higher than the $60 strike price of the option. This means the buyer of the put would not exercise the option because they could sell the 100 shares in the market for a better price. This means the seller of the put would keep the entire $400 option premium that was paid to them. The option will be exercised if the market price of the stock is below $60 at expiry. 
+The seller of the put option would make a profit if the market price of the share on the expiry date in June is higher than $56. If the market price is higher than $60 at expiry, this means the buyer of the put would not exercise the option because they could sell the 100 shares in the market for a better price. This means the seller of the put would keep the entire $400 option premium that was paid to them. The option will be exercised if the market price of the stock is below $60 at expiry. 
 
 1.15 It is May and a trader writes a September call option with a strike price of $20. The stock price is $18 and the option price is $2. Describe the trader's cash flows if the optin is held until September and the stock price is $25 at that time.
 
