@@ -1,0 +1,31 @@
+4.1 A bank quotes an interest rate of 14% per annum with quarterly compounding. What is the equivalent rate with (a) continuous compounding and (b) annual compounding?
+
+a) Rc = m * ln(1 + Rm/m)
+Rc = 4 * ln (1 + 0.14/4)
+Rc = ‭0.13760570686932958457611309931337‬
+
+b) Rm = m(e^(Rc/m) - 1)
+Rm = 1(e^(‭0.13760570686932958457611309931337‬/1)-1)
+Rm = ‭‭0.147523000625‬
+
+4.2 What is meant by LIBOR AND LIBID. Which is higher?
+
+Libor = London interbank offered rate
+Libid = London interbank bid rate
+
+Libid is lower than libor
+
+4.3 The 6-month and 1-year zero rates are both 10% per annum. For a bond that has a life of 18 months and pays a coupon of 8% per annum (with semiannual payments and one having just been made), the yield is 10.4% per annum. What is the bond's price? What is the 18-month zero rate? All rates are quoted with semiannual compounding.
+
+// TODO: Accidentally used $8 payments instead of $4
+
+Bond price = 8*e^(-0.104 * 0.5) + 8*e^(-0.104 * 1) + 108*e^(-0.104 * 1.5)
+= ‭7.5946309347431166603199372544324‬ + ‭7.2098023793696382385781692487184‬ + ‭92.400392560069995051631959908303‬
+= ‭107.2066258741099950516319599083‬
+
+1.5 year zero rate = 8*e^(-0.1 * 0.5) + 8*e^(-0.1 * 1) + 108*e^(-rate * 1.5) = 107.2066258741099950516319599083‬
+= ‭7.6098353960057120727314025582372‬ + ‭7.2386993442876765853139924755715‬ + 108*e^(-rate * 1.5) = 107.2066258741099950516319599083‬
+e^(-rate * 1.5) = ‭0.85516751049830186427764821781878‬
+‭-rate * 1.5 = -0.15645791052347706122797506974209‬
+-rate = ‭-0.10430527368231804081865004649473‬
+rate = 0.10430527368231804081865004649473‬
