@@ -29,3 +29,32 @@ e^(-rate * 1.5) = ‭0.85516751049830186427764821781878‬
 ‭-rate * 1.5 = -0.15645791052347706122797506974209‬
 -rate = ‭-0.10430527368231804081865004649473‬
 rate = 0.10430527368231804081865004649473‬
+
+4.4 An investor recieves $1,100 in one year in return for an investmenet of $1,000 now. Calculate the percentage return per annum with:
+a) Annual compounding
+b) Semiannual compounding
+c) Monthly compounding
+d) Continuous componding
+
+Zero rate (compounded annually) = 10%
+continuous compounding = ln(1 + 0.1) = 0.09531017980432486004395212328077
+
+a) 10%
+b) 2 * (e^(0.09531017980432486004395212328077 / 2) - 1) = 0.09761769634030309398290702735988
+c) 12 * (e^(0.09531017980432486004395212328077 / 12) - 1) = ‭0.09568968514684489279238213067877‬
+d) 0.09531017980432486004395212328077
+
+4.5 Suppose that zero interest rates with continuous compounding are as follows. Calculate forward interest rates for the second, third, fourth, fifth, and sixth quarters.
+
+Second quarter = $100 * e^(0.08 * 0.25) * e^(r * 0.25) = $100 * e^(0.082 * 0.5)
+‭102.02013400267558101601439204832‬ * e^(r * 0.25) = ‭104.18521055454795493337734638249‬
+r = ‭0.08399999999999999999999999999981‬
+
+Third quarter = $100 * e^(0.082 * 0.5) * e^(r * 0.25) = $100 * e^(0.084 * 0.75)
+‭104.18521055454795493337734638249‬ * e^(r * 0.25) = ‭106.50268392313054643029450234071‬
+= ‭0.08800000000000000000000000000017‬
+
+Fourth quarter = ((R2 * T2) - (R1 * T1)) / (T2 - T1) = ((0.085 * 1) - (0.084 * 0.75)) / (1 - 0.75) = ‭0.088‬
+
+Fifth quarter = ((R2 * T2) - (R1 * T1)) / (T2 - T1) = (0.086 * 1.5) - (0.085 * 1) / (1.5 - 1)
+
