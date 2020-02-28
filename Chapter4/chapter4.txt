@@ -56,5 +56,29 @@ Third quarter = $100 * e^(0.082 * 0.5) * e^(r * 0.25) = $100 * e^(0.084 * 0.75)
 
 Fourth quarter = ((R2 * T2) - (R1 * T1)) / (T2 - T1) = ((0.085 * 1) - (0.084 * 0.75)) / (1 - 0.75) = ‭0.088‬
 
-Fifth quarter = ((R2 * T2) - (R1 * T1)) / (T2 - T1) = (0.086 * 1.5) - (0.085 * 1) / (1.5 - 1)
+Fifth quarter = ((R2 * T2) - (R1 * T1)) / (T2 - T1) = (0.086 * 1.25) - (0.085 * 1) / (1.25 - 1) = 0.09
+
+Sixth quarter = ((R2 * T2) - (R1 * T1)) / (T2 - T1) = ((0.087 * 1.5) - (0.086 * 1.25)) / (1.5 - 1.25) = 0.092
+
+4.6 Assuming that zero rates are as in Problem 4.5, what is the value of an FRA that enables the holder to earn 9.5% for a 3-month period starting in 1 year on a principal of $1,000,000? The interest rate is expressed with quarterly compounding.
+
+Convert forward libor rate to quarterly compounding = 4* (e^(0.09/4) - 1) = 0.0910201
+
+Vfra = L(Rk - Rf)(T2-T1)e^(-R2T2) = $1,000,000 * (0.095 - 0.0910201) * (1.25 - 1.0) * e^(-0.086 * 1.25) = $893.56
+
+4.7 The term structure of interest rates is upward-sloping. Put the following in order of magnitude:
+
+a) The 5-year zero rate
+b) The yield on a 5-year coupon-bearing bond
+c) The forward rate correspoinding to the period between 4.75 and 5 years in the future
+
+What is the answer to this aquestion when the term structure of interest rates is downward sloping?
+
+Upward sloping scenario = b < a < c
+Downward sloping scenario = c < a < b
+
+4.8 What does duration tell you about the sensitivity of a bond portfolio to interest rates. What are the limitations of the duration measure?
+
+The longer the duration, the higher the sensitivity to interest rates. Duration doesn't give you an idea of how quickly 
+
 
