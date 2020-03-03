@@ -148,3 +148,31 @@ r = 0.0523229
 Vfra = L(Rf - Rk)(T2-T1)e^(-R2T2)
 = $1,000,000 * (0.0523229 - 0.05) * (3 - 2) * e(-0.037*3)
 = $2078.85
+
+4.16 A 10-year 8% coupon bond currently sells for $90. A 10-year 4% coupon bond currently sells for $80. What is the 10-year zero rate? (Hint: Consider taking a long position in two of the 4% coupon bonds and a short position in one of the 8% coupon bonds.)
+
+Long position in two 4% bonds and short position in one 8% bond:
+ todays portfolio setup cost: 2 * -$80 + $90 = -$70
+ final principal payout: 2 * $100 - $100 = $100
+ 
+All coupon payments cancel each other out. So todays setup cost equals the present value of the future principal payout:
+
+$70 = $100 * e^(-r*10) = 0.035667494393873237891263871124118447796401675904691178757
+
+4.17 Explain carefully why liquidity preference theory is consistent with the observation that the term structure of interest rates tends to be upward-sloping more often than downward-sloping.
+
+If interest rates are equally likely to move up or down, investors and lenders have incentive to lock-up their money for short periods of time so that they can potentially reinvest their money at a higher interest rate. If interest rates are equally likely to move up or down, borrows have incentive to lock-in their interest rate for the longest period of time to prevent losing money when interest rates rise. For these reasons, short term interest rates tend to be lower since their is less liquidity risk for lenders, but also more risk for borrowers. Long interest rates tend to be higher because their is more liquidity risk for lenders, but less risk for borrowers.
+
+4.18 "When the zero curve is upward-sloping, the zero rate for a particular maturity is greater than the par yield for that maturity. When the zero curve is downward-sloping the reverse is true." Explain why this is so.
+
+The par yield on a coupon bearing bond (B) with maturity (M) is the coupon rate (C) that makes the bond price to its face value. The interest payments calculated with coupon (C) are discounted using zero rates at maturities that are less than maturity (M). If the zero curve is upward sloping, these discount factors at maturities less than (M) will be lower than the discount factor calculated at (M). This means that (C) doesn't need to be as high as the zero rate at maturity (M) to make bond (B) price to its face value.
+
+4.19 Why are US Treasury rates significantly lower than other rate that are close to risk-free?
+
+A number of tax and regulatory issues cause Treasury rates to be artifically low. Financial institutions and derivative traders consider Libor to be a better representation of the true risk-free rate.
+
+4.20 Why does a loan in the repo market involve very little credit risk?
+
+Each loan is backed by collateral that can be sold in the case that the borrower is unable to buy back the collateral. If the lender is unwilling to give back the collateral, the borrower can simply keep the money that they borrowed. This leads to very little credit risk for both parties involved.
+
+
