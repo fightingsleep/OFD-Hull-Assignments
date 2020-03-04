@@ -175,4 +175,44 @@ A number of tax and regulatory issues cause Treasury rates to be artifically low
 
 Each loan is backed by collateral that can be sold in the case that the borrower is unable to buy back the collateral. If the lender is unwilling to give back the collateral, the borrower can simply keep the money that they borrowed. This leads to very little credit risk for both parties involved.
 
+4.21 Explain why an FRA is equivalent to the exchange of a floating rate of interest for a fixed rate of interest.
+
+A forward rate agreement is an agreement that a specific interest rate will apply to either borrowing or lending a certain principal amount during a future time period. This means that after you enter into an FRA, you no longer have to be concerned about interest rate movements (ie: the floating rate) because the agreed upon interest rate (ie: the fixed rate) will apply to the future period regardless of the interest rates at that time.
+
+4.22 A 5-year bond with a yield of 11% (continuously compounded) pays an 8% coupon at the end of each year.
+a) What is the bond's price?
+b) What is the bond's duration?
+c) Use the duration to calculate the effect on the bond's price of a 0.2% decrease in its yield.
+d) Recalculate the bond's price on the basis of a 10.8% per annum yield and verify that the result is in agreement with your answer to c)
+
+a) $8 * e^(-0.11*1) + $8 * e^(-0.11*2) + $8 * e^(-0.11*3) + $8 * e^(-0.11*4) + $108 * e^(-0.11*5) = $86.8011
+b) 1 * (($8 * e^(-0.11*1)) / $86.8011) + 2 * (($8 * e^(-0.11*2)) / $86.8011) + 3 * (($8 * e^(-0.11*3)) / $86.8011) + 4 * (($8 * e^(-0.11*4)) / $86.8011) + 5 * (($108 * e^(-0.11*5)) / $86.8011) = 4.25597
+c) Since the yield is expressed using continuous componding, the macaulay duration calculated in b) is equal to the modified duration. Meaning the following formula can be used:
+
+DeltaB = -B*D*DeltaY
+       = -$86.8011 * 4.25597 * -0.002
+	   = 0.738845755134
+	
+Therefore the bonds price would be $86.8011 + $0.738845755134 = $87.539945755134
+
+d) $8 * e^(-0.108*1) + $8 * e^(-0.108*2) + $8 * e^(-0.108*3) + $8 * e^(-0.108*4) + $108 * e^(-0.108*5) = $87.5434. Which is what our answer in c) predicted (to two decimal places).
+
+4.23 The cash prices of 6-month and 1-year Treasury bills are 94.0 and 89.0. A 1.5 year bond that will pay coupons of 4$ every 6 months currently sells for $94.84. A 2-year bond that will pay coupons of $5 every 6 months currently sells for $97.12. Calculate the 6-month, 1-year, 1.5 year, and 2-year zero rates.
+
+6 month zero rate: $100 is paid at maturity on an investment of $94. This is a $6 return in 6 months. 2 * ($6 / $94) = ‭12.765957446808510638297872340426‬% per annum with semiannual componding. Converting to continuous compounding we get: 2 * ln(1 + 0.12765957446808510638297872340426 / 2) = 0.12375080743617494359560023627676 = 12.375080743617494359560023627676
+
+1 year zero rate: $100 is paid at maturity on an investment of $89.0. This is a return of $11 in 1 year. $11 / $89 = ‭12.359550561797752808988764044944‬% per annum with annual compounding. Converting to continuous compounding we get: ln(1 + 0.12359550561797752808988764044944) = 0.11653381625595152971816736869888 = 11.653381625595152971816736869888%
+
+1.5 year zero rate:
+
+$94.84= $4 * e^(-0.12375080743617494359560023627676 * 0.5) + $4 * e^(-0.11653381625595152971816736869888 * 1) + $104 * e^(-r * 1.5)
+= 0.115015706978467726026337071918806466094717715405604253138
+= 11.5015706978467726026337071918806466094717715405604253138%
+
+2 year zero rate:
+
+$97.12 = $5 * e^(-0.12375080743617494359560023627676 * 0.5) + $5 * e^(-0.11653381625595152971816736869888 * 1) + $5 * e^(-0.115015706978467726026337071918806466094717715405604253138 * 1.5) + $105 * e^(-r * 2) = 0.11299 = 11.299%
+
+
+
 
