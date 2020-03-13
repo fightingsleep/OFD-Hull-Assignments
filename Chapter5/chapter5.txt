@@ -1,0 +1,21 @@
+5.1 Explain what happens when an investor shorts a certain share.
+
+Investor A contacts their broker with a request to short a share. The broker finds an investor B that holds that share (who is willing to lend it out for a fee), and lends it to investor A. Investor A then sells the share at the current market price. When investor A is ready to close their short position, they buy back the share at the market price at that time, and return it to investor B. Investor A is responsible for covering any interest or dividends paid by the share, and paying it to investor B. If the broker runs out of shares to borrow, investor A will be forced to close their short position.
+
+5.2 What is the difference between the forward price and the value of a forward contract?
+
+The forward price is the price specified in the contract that will be exchanged on the delivery date in exchange for the underlying asset. Forward contracts start out with a value of zero. However, as the price of the underlying asset moves, the value of the forward contract goes up or down.
+
+5.3 Suppose that you enter into a 6-month forward contract on a non-dividend-paying stock when the stock price is $30 and the risk-free interest rate (with continuous compounding) is 12% per annum. What is the forward price?
+
+F0 = S0 * e^(r*t)
+   = $30 * e^(0.12 * 6/12)
+   = $31.85510
+   
+5.4 A stock index currently stands at 350. The risk-free interest rate is 8% per annum (with continuous compounding) and the dividend yield on the index is 4% per annum. What should the futures price for a 4-month contract be?
+
+F0 = S0 * e^(r-q * t)
+   = 350 * e^((0.08 - 0.04) * 4/12)
+   = 354.6979
+   
+   
