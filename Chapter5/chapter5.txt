@@ -18,4 +18,18 @@ F0 = S0 * e^(r-q * t)
    = 350 * e^((0.08 - 0.04) * 4/12)
    = 354.6979
    
-   
+5.5 Explain carefully why the futures price of gold can be calculated from its spot price and other observable variables whereas the futures price of copper cannot.
+
+Gold is an investment asset. Copper is a consumption asset. The futures price of an investment asset can be calculated accurately by making no arbitrage arguments. However, only the upper limit on the futures price for a consumption asset can be calculated using no arbitrage arguments.
+
+5.6 Explain carefully the meaning of the terms convenience yield and cost of carry. What is the relationship between futures price, spot price, convenience yield, and cost of carry?
+
+The benefits from holding the physical asset are sometimes referred to as the convnience yield provided by the commodity. The cost of carry measures the storage cost plus the interest that is paid to finance the asset less the income earned on the asset. F0 = S0*e^(c-y)T.
+
+5.7 Explain why a foreign currency can be treated as an asset providing a known yield.
+
+Each currency has its own risk free interest rate Rf. The interest paid is in the foreign currency, but can be converted to domestic currency at a known rate. Currency futures can therefore be priced using the same equation as a normal asset with a known yield, but we subtitute "q" in the equation to be Rf. This leads to the equation F0 = S0 * e^((R-Rf)*T). 
+
+5.8 Is the futures price of a stock index greater than or less than the expected future value of the index? Explain your answer.
+
+Stock indicies have positive systemic risk, meaning that an investor would expect a return greater than the risk free interest rate. This means that the futures prices of stock indicies will generally understate the expected future spot price.
