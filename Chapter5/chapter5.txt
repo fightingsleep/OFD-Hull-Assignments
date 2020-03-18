@@ -33,3 +33,62 @@ Each currency has its own risk free interest rate Rf. The interest paid is in th
 5.8 Is the futures price of a stock index greater than or less than the expected future value of the index? Explain your answer.
 
 Stock indicies have positive systemic risk, meaning that an investor would expect a return greater than the risk free interest rate. This means that the futures prices of stock indicies will generally understate the expected future spot price.
+
+5.9 A 1-year long forward contract on a non-dividend-paying stock is entered into when the stock price is $40 and the risk-free rate of interest if 10% per annum with continuous compoudning.
+a) What are the forward price and the initial value of the forward contract?
+b) Six months later, the price of the stock is $45 and the risk-free interest rate is still 10%. What are the forward price and the value of the forward contract?
+
+a) F0 = S0 * e^(r * t)
+      = $40 * e^(0.1 * 1)
+	  = $44.20684. Initial value is zero
+
+b) F0 = $45 * e^(0.1 * 0.5)
+      = $47.30720
+	  
+Value of forward contract = ($47.30720 - $44.20684) * e^(-0.1 * 0.5)
+                          = $2.94915
+						  
+5.10 The risk-free rate of interest is 7% per annum with continuous compounding, and the dividend yield on a stock index is 3.2% per annum. The current value of the index is 150. What is the 6-month futures price?
+
+F0 = S0 * e^(r-q * t)
+   = 150 * e^((0.07 - 0.032) * 0.5)
+   = 152.8772
+   
+5.11 Assume that the risk-free interest rate is 9% per annum with continuous compounding and that the dividend yield on a stock index varies thoughout the year. In Februrary, May, August, and November, dividends are paid at a rate of 5% per annum. In other months, dividends are paid at a rate of 2% per annum. Suppose that the value of the index in July 31 is 1300. What is the futures price for a contract deliverable in December 31 of the same year?
+
+Average dividend yield = (Aug yield + Sept yield + Oct yield + Nov yield + Dec yield) /5 = (5 + 2 + 2 + 5 + 2) / 5 = 3.2%
+F0 = 1300 * e^((0.09 - 0.032) * 5/12) = 1331.799
+
+5.12 Suppose that the risk-free interest rate is 10% per annum with continuous compounding and that the dividend yield on a stock index is 4% per annum. The index is standing at 400, and the futures price for a contract deliverable in four months is 405. What arbitrage opportunities does this create?
+
+F0 = 400 * e^((0.1 - 0.04) * 4/12)
+   = 408.0805
+   
+This means that the current futures price is low and a risk free arbitrage opportunity exists by purchasing futures, shorting the stocks underlying the index, and investing the proceeds at the risk free interest rate. 
+
+5.13 Estimate the difference between short-term interest rates in Mexico and the United States on January 8, 2007, from the information in Table 5.4
+
+F0 = S0 * e^(r - rf * t)
+0.91025 = 0.91250 * e^(deltaR * 2/12)
+deltaR = 0.0148128 = ~1.5% per annum
+
+5.14 The 2-month interest rates in Switzerland and the United States are, respectively, 2% and 5% per annum with continuous compounding. The spot price of the Swiss franc is $0.8000. The futures price for a contract deliverable in 2 months is $0.8100. What arbitrage opportunities does this create?
+
+F0 = 0.8000 * e^((0.05-0.02) * 2/12)
+   = 0.804010
+
+Convert to Swiss Franc and short the 2 month futures contracts at $0.8100
+
+5.15 The spot price of silver is $9 per ounce. The storage costs are $0.24 per ounce per year payable quarterly in advance. Assuming that interest rates are 10% per annum for all maturities, calculate the futures price of silver for deliver in 9 months.
+
+Storage costs = $0.06 + $0.06 * e^(0.1 * -3/12) + $0.06 * e^(0.1 * -6/12) = $0.175592
+F0 = ($9 + $0.175592) * e^(0.1 * 9/12) = $9.890225
+
+5.16 Suppose that F1 and F2 are two futures contracts on the same commodity with times to maturity, t1 and t2, where t2 > t1. Prove that F2 <= F1 * e(r * (t2 - t1))
+
+If this was not the case, and F2 > F1 * e(r * (t2 - t1)), an arbitrage opportunity exists. You buy the F1 future, Short the F2 contract, borrow money at t1 to make the purchase. Hold the asset until t2 for delivery. You would make F2 - F1 * e^(r * (t2 - t1)).
+
+
+
+
+
