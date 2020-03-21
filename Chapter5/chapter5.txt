@@ -88,6 +88,82 @@ F0 = ($9 + $0.175592) * e^(0.1 * 9/12) = $9.890225
 
 If this was not the case, and F2 > F1 * e(r * (t2 - t1)), an arbitrage opportunity exists. You buy the F1 future, Short the F2 contract, borrow money at t1 to make the purchase. Hold the asset until t2 for delivery. You would make F2 - F1 * e^(r * (t2 - t1)).
 
+5.17 When a known future cash outflow in a foreign currency is hedged by a company using a forward contract, there is no foreign exchange risk. When it is hedged using futures contracts, the marking-to-market process does leave the company exposed to some risk. Explain the nature of this risk. In particular, consider whether the company is better off using a futures contract or a forward contract when:
+a) The value of the foreign currency falls rapidly during the life of the contract
+b) The value of the foreign currency rises rapidly during the life of the contract
+c) The value of the foreign currency first rises and then falls back to its initial value
+d) The value of the foreign currency first falls and then rises back to its initial value
+Assume that the forward price equals the futures price.
+
+The mark-to-market process means that the futures contracts are a slightly imperfect hedge and expose the company to some risk.
+
+Considering the time value of money, it is better to receive profits early and losses later. For this reason the answers are:
+a) Forward - Because it pushes the losses father out
+b) Futures - Because the profits are realized sooner
+c) Futures - Because the profits are realized sooner and the losses are pushed farther out
+d) Forward - Because the losses would be pushed father out
+
+5.18 It is sometimes argued that a forward exchange rate is an unbiased predictor of future exchange rates. Under what circumstances is this so?
+
+The only circumstance under which this is true is when the exchange rate has no systematic risk (ie: no correlation with the market's return).
+
+5.19 Show that the growth rate in an index futures price equals the excess return of the index over the risk-free rate. Assume that the risk-free interest rate and the dividend yield are constant.
+
+F0 = S0 * e^((r - q) * T)
+F1 = S1 * e^((r - q)*(T-t1))
+
+Futures price growth rate = F1 / F0
+                    = (S1 * e^((r - q)*(T-t1))) / (S0 * e^((r - q) * T))
+					= S1 / S0 * e^((q - r) t1)
+					
+5.20 Show that equation (5.3) is true by considering an investment in the asset combined with a short position in a futures contract. Assume that all income from the asset is reinvested in the asset. Use an argument similar to that in footnotes 2 and 4 and explain in detail what an arbitraguer would so if equation (5.3) did not hold.
+
+(5.3)   F0 = S0 * e^((r - q) * T)
+
+Buy one unit of the asset and enter into a short forward contract to sell it for F0 at time T. This costs S0 and is certain to lead to a cash inflow of F0 at time T and since we are reinvesting the income back into the asset, we get e^(q * T) additional asset by time T. The initial outflow is S0. The present value of the inflows is S0 = F0 * e^(-r * T) + F0 * e^(q * T) * e(-r * T)
+
+5.21 Explain carefully what is meant by the expected price of a commodity on a particular future date. Suppose that the futures price for crude oil declines with the maturity of the contract at the rate of 2% per year. Assume that speculators tend to be short crude oil futures and hedges tend to be long. What does the Keynes and Hicks argument imply about the expected futures price?
+
+The expected price of a commodity on a particular future date is the average market participants opinion on what the value of the commodity will be in the future. The Keynes and Hicks argument implies that the expected futures price of crude oil will decline more than 2% per year to make up for the risk that the speculators are taking on to enter into the contract. 
+
+5.22 The Value Line Index is designed to reflect changes in the value of a portfolio of over 1,600 equally weighted stocks. Prior to March 9, 1988, the change in the index from one day to the next was calculated as the geometric average of the changes in the prices of the stocks underlying the index. In these circumstances, does equation (5.8) correctly relate the futures price of the index to its cash price? If not, does the equation overstate or understate the futures price?
+
+No, calculating the index value based on the geometric average of the changes in the underlying stocks would lead to an index price that is too low. Equation 5.8 would then overstate the value of the index futures.
+
+5.23 A US company is interested in using the futures contracts traded on the CME to hedge its Australian dollar exposure. Define r as the interest rate (all maturities) on the US dollar and rf as the interest rate (all maturities) on the Australian dollar. Assume that r and rf are constant and that the company uses a contract expiring at time T to hedge an exposure at time t (T > t).
+a) Show that the optimal hedge ratio is e^(rf-r)*(T-t)
+b) Show that, when t is 1 day, the optimal hedge ratio is almost exactly S0/F0, where S0 is the current spot price of the currency and F0 is the current futures price of the currency for the contract maturing at time T.
+c) Show that the company can take account of the daily settlemenet of futures contracts for a hedge that lasts longer than 1 day by adjusting the hedge ratio so that it always equals the spot price of the currency divided by the futures price of the currency.
+
+a) The futures price formula at time t is:
+	
+	Ft = St * e^(r - rf)(T - t)
+	
+The effective spot price obtained with hedging would be:
+
+	h * (F0 - Ft) + St
+
+Combine these formulas to get:
+
+	hF0 - hFt + St
+	hF0 - h * St * e^(r - rf)(T - t) + St
+
+If h = e^(rf-r)*(T-t), this reduces to:
+
+	hF0 - St + St
+	hF0
+	
+Which is a zero variance hedge ratio.
+
+b) When t is only 1 day:
+
+h = e^(rf-r)*(T-t) is approx equal to:
+
+h = e^(rf-r)*(T) = S0/F0
+
+c) Since futures are settled daily, they basically act like a series of separate contracts that are rewritten each day. As we see from the answer to b), as long as we adjust our hedge ratio daily so that S0/F0, we will be using appoximately the correct hedge ratio. 
+
+
 
 
 
